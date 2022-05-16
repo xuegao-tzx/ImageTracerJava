@@ -1,4 +1,6 @@
 /upload.gradle
 /gradle.properties
+/.idea
+/.gradle
 /build
 /cer
