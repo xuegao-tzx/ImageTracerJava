@@ -1,0 +1,34 @@
+
+g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(»Œßûÿÿÿÿ8ğ‹µÖŒ0
+b	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(İäâú8ò‹µÖŒ0
+†
+java:S1319q"dThe type of "options" should be an interface such as "Map" rather than the implementation "HashMap".(«Š¾úùÿÿÿÿ8•ŒµÖŒ0
+t
+java:S1104”"QMake width a static final constant or non-public and provide accessors if needed.(åáÛ‹ûÿÿÿÿ8ŒµÖŒ0
+p
+java:S1104—"RMake height a static final constant or non-public and provide accessors if needed.(Á“Çú8ŸŒµÖŒ0
+t
+java:S1104»"QMake width a static final constant or non-public and provide accessors if needed.(åáÛ‹ûÿÿÿÿ8ŸŒµÖŒ0
+p
+java:S1104¾"RMake height a static final constant or non-public and provide accessors if needed.(Á“Çú8 ŒµÖŒ0
+s
+java:S1104Â"PMake data a static final constant or non-public and provide accessors if needed.(µ÷§Çøÿÿÿÿ8¡ŒµÖŒ0
+n
+java:S2095?"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(îŞÀ‘ûÿÿÿÿ8¿µÖŒ0
+£
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ—¶¾üÿÿÿÿ8ÍµÖŒ0
+x
+java:S1450*"VRemove the "rawdata" field and declare it as a local variable in the relevant methods.(ú é”úÿÿÿÿ8İµÖŒ0
+?
+java:S1118/"Hide this public constructor.(æ—¶¾üÿÿÿÿ8ìµÖŒ0
+^	java:S899="BDo something with the "boolean" value returned by "createNewFile".(úÜ²¥8³µÖŒ0
+P
+java:S1172E".Remove this unused method parameter "options".(ÖÚ‚Ùüÿÿÿÿ8¼µÖŒ0
+‰
+java:S1130K"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(İäâú8ÄµÖŒ0
+]	java:S125Z"<This block of commented-out lines of code should be removed.(ô¹ù·ıÿÿÿÿ8ÒµÖŒ0
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(Ü³š·üÿÿÿÿ8ïµÖŒ0
+B
+java:S1659—"$Declare "height" on a separate line.(Á“Çú8şµÖŒ0
+B
+java:S1659¾"$Declare "height" on a separate line.(Á“Çú8€µÖŒ0

@@ -1,0 +1,40 @@
+apply plugin: 'java'
+apply from: './upload.gradle' // 上传完Maven之后需要删除该行代码，否则工程编译会报错
+
+group = 'top.xuegao-tzx'
+version= '1.1.4.516'
+
+repositories {
+    maven {
+        url 'https://mirrors.huaweicloud.com/repository/maven/'
+        allowInsecureProtocol = true
+    }
+    maven {
+        url 'https://developer.huawei.com/repo/'
+        allowInsecureProtocol = true
+    }
+    maven {
+        url 'https://repo.huaweicloud.com/repository/maven/'
+        allowInsecureProtocol = true
+    }
+    mavenCentral()
+}
+
+jar {
+    enabled = true
+}
+
+javadoc {
+    options.encoding = "UTF-8"
+    failOnError = false
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
