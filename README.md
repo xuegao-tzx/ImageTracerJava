@@ -5,12 +5,14 @@ ImageTracerJava(一个可以把png等图片转svg的开源Java库)
 ## How to Use:
 
 ### Including in Java projects
-Add **ImageTracer.jar** to your build path
-把 **ImageTracer.jar** 添加到构建路径
+
+Add **ImageTracer.jar** to your build path<br>
+把 **ImageTracer.jar** 添加到构建路径<br>
+
 ### 安装教程
 
-**Add the mavenCentral repository under the project's build.gradle**
-**在 Project 的 build.gradle 下添加 mavenCentral 仓库**
+**Add the mavenCentral repository under the project's build.gradle**<br>
+**在 Project 的 build.gradle 下添加 mavenCentral 仓库**<br>
 
 ```groovy
 repositories {
@@ -24,15 +26,15 @@ repositories {
 }
 ```
 
-**Add ImageTracerJava dependency under Module's build.gradle**
-**在 Module 的 build.gradle 下添加 ImageTracerJava 依赖**
+**Add ImageTracerJava dependency under Module's build.gradle**<br>
+**在 Module 的 build.gradle 下添加 ImageTracerJava 依赖**<br>
 
 ```groovy
 implementation 'top.xuegao-tzx:ImageTracerJava:1.1.4.516'
 ```
 
-then use the static methods:
-然后使用静态方法：
+then use the static methods:<br>
+然后使用静态方法：<br>
 
 ```java
 import com.xcl.imagetracer_mod.ImageTracer;
@@ -44,8 +46,8 @@ ImageTracer.saveString(
 );
 ```
 
-With options and palette
-带有选项和调色板的方法：
+With options and palette<br>
+带有选项和调色板的方法：<br>
 
 ```java
 // Options
@@ -96,8 +98,8 @@ ImageTracer.saveString(
 See [options for deterministic tracing](https://github.com/jankovicsandras/imagetracerjava/blob/master/deterministic.md)
 
 
-### Main Functions
-### 主要功能
+### Main Functions<br>
+### 主要功能<br>
 |Function name|Arguments|Returns|
 |-------------|---------|-------|
 |```imageToSVG```|```String filename, HashMap<String,Float> options /*can be null*/, byte [][] palette /*can be null*/```|```String /*SVG content*/```|
@@ -119,8 +121,8 @@ See [options for deterministic tracing](https://github.com/jankovicsandras/image
 
 There are more functions for advanced users, read the source if you are interested. :)
 
-### Options
-### 配置选项
+### Options<br>
+### 配置选项<br>
 |Option name|Default value|Meaning|
 |-----------|-------------|-------|
 |```ltres```|```1f```|Error treshold for straight lines.|
@@ -142,7 +144,7 @@ There are more functions for advanced users, read the source if you are interest
 ### Process overview
 See [Process overview and Ideas for improvement](https://github.com/jankovicsandras/imagetracerjava/blob/master/process_overview.md)
 
-### License
-### 许可证
+### License<br>
+### 许可证<br>
 Modfiy Author：田梓萱<br>
 ImageTracerJava 在 [Apache 2.0 License](LICENSE)下获得许可
